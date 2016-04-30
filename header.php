@@ -19,9 +19,44 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php endif; ?>
 	<?php wp_head(); ?>
+
+<link rel='stylesheet' href='http://pl.citizensclimatelobby.org/blog/wp-content/uploads/2016/04/bootstrap.min-wp-1.css'/>
+<script src="http://pl.citizensclimatelobby.org/blog/wp-content/uploads/2016/04/jquery-1.12.0.min_.js"></script>
+<script src="http://pl.citizensclimatelobby.org/blog/wp-content/uploads/2016/04/bootstrap.min_.js"></script>
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-30226964-3', 'auto');
+  ga('send', 'pageview');
+</script>
 </head>
 
 <body <?php body_class(); ?>>
+   <nav class="navbar navbar-default navbar shrink">
+      <div class="container">
+	    <div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="top-navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://pl.citizensclimatelobby.org/#co-to-ccl">O nas</a></li>
+            <li><a href="http://pl.citizensclimatelobby.org/#oplata-i-dywidenda-weglowa">Op?ata i dywidenda w?glowa</a></li>
+            <li><a href="http://pl.citizensclimatelobby.org/#wydarzenia">Wydarzenia</a></li>
+            <li class="active"><a href="/blog/">Blog</a></li>
+            <li><a href="http://pl.citizensclimatelobby.org/#kontakt">Kontakt</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
 <div id="page" class="site">
 	<div class="site-inner">
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentysixteen' ); ?></a>
